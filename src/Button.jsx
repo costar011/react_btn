@@ -23,9 +23,11 @@ export const Button = () => {
       </span>
 
       <span className="animation">
-        <span className=""></span>
-        <span className=""></span>
-        <span className=""></span>
+        <span className="balls"></span>
+        <span className="lid"></span>
+        <span className="can">
+          <span className="filler"></span>
+        </span>
       </span>
     </button>
   );

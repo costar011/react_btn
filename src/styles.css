@@ -1,3 +1,13 @@
 * {
     box-sizing: border-box;
 }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
