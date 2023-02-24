@@ -11,3 +11,39 @@ body {
     place-items: center;
     margin: 0;
 }
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+    border: 0;
+    background: #ff0349;
+    font-size: 22px;
+    font-weight: 400;
+
+    font-family: 'Noto Sans', sans-serif;
+    color: #f9f9f9;
+    padding: 0 16px 0 24px;
+    height: 64px;
+    width: 180px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-text {
+    flex: 0 0 90px;
+    text-align: center;
+}
+
+.animation {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+
+    width: 64px;
+    height: 64px;
+}
