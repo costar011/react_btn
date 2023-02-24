@@ -47,3 +47,16 @@ button {
     width: 64px;
     height: 64px;
 }
+
+.can {
+    overflow: hidden;
+    position: relative;
+    translate: 0 2px;
+
+    width: 20px;
+    height: 22px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid #ffffff;
+    border-top: 0;
+}
