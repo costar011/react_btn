@@ -88,3 +88,21 @@ button {
     40%, 100% {translate: -50, 56px;}
     50%, 100% {scale: 2.1 1;}
 }
+
+.balls {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    translate: -50% 0;
+
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+@keyframes fill {
+    0%, 20% {translate: 0 0;}
+    50%, 70% {translate: 0 -50%;}
+    90%, 100% {translate: 0 -100;}
+}
