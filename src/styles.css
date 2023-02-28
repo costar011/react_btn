@@ -106,3 +106,26 @@ button {
     50%, 70% {translate: 0 -50%;}
     90%, 100% {translate: 0 -100;}
 }
+
+.filler {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -32px;
+
+    width: 64px;
+    height: 120%;
+    background: #ffffff;
+}
+
+button:disabled {
+    opacity: 0.8;
+}
+
+button:deleting .lid {
+    animation:  open 2.5s both;
+}
+
+button:deleting .balls {
+    animation:  drop 2 linear 1.25s;
+}
