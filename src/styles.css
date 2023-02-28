@@ -129,3 +129,8 @@ button:deleting .lid {
 button:deleting .balls {
     animation:  drop 2 linear 1.25s;
 }
+
+button:deleting .filler {
+    animation:  fill 2.5s both;
+}
+
